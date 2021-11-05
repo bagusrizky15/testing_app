@@ -2,11 +2,11 @@
     package="com.example.testing_app">
    <application
         android:label="testing_app"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@android:mipmap/sym_def_app_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/LaunchTheme"
+            android:theme="@android:style/DeviceDefault.Light.ButtonBar.AlertDialog"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
